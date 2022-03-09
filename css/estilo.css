@@ -1,0 +1,133 @@
+/*
+Limpar formatações padrões
+
+* -> a formatação aplicada a este seletor será a aplicda a toda a página.
+*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/*
+Formatação de propósito geral.
+*/
+
+h1 {
+	color: #4E4E4E;
+	font-size: 2.5em;
+}
+
+h2 {
+	color: #f7b600;
+}
+
+h3 {
+	color: #565656;
+	background: #CCC;
+	padding: 5px;
+}
+
+body {
+	background: #E6E6E6;
+	font-size: 1em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link, a:visited {
+	color: #f7b600;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:active {
+	color: #e4f371;
+}
+
+#area-cabecalho a:link, #area-cabecalho a:visited {
+	color: white;
+	padding: 8px 12px;
+}
+
+#area-cabecalho a:hover {
+	color: #FFBF00;
+	background: white;
+	text-decoration: none;
+}
+
+.data-postagem {
+	font-size: 0.8em;
+	border-bottom: 1px solid #CCC;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	display: block;
+}
+
+/*
+Configuraçaõ de cabeçalho
+*/
+#area-cabecalho {
+	background: #FFBF00;
+	padding: 10px 10px 28px 10px;
+	text-align: center;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.branco {
+	color: white;
+}
+
+/*
+Configração do corpo
+*/
+
+#area-principal {
+	width: 920px; /*Largura padrão para dispositivos modernos*/
+	margin: 0px auto;
+	padding: 15px;
+}
+
+#area-postagens {
+	width: 660px;
+	float: left;
+}
+
+.postagens {
+	padding: 20px;
+	margin-bottom: 20px;
+	background: white;
+}
+
+#area-lateral {
+	width: 240px;
+	float: right; 
+}
+
+.conteudo-lateral {
+	background: white;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+.postagem-lateral {
+	font-size: 0.8em;
+	padding: 5px;
+}
+
+/*
+Formatação da área de rodape
+*/
+
+#rodape {
+	clear: both;
+	text-align: center;
+	padding: 15px;
+	background: #CCC;
+}
+
+
